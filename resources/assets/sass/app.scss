@@ -3,7 +3,7 @@
 // @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 
 // Variables
-@import "variables";
+@import "_variables";
 
 //font-awesome
 @import "node_modules/font-awesome/scss/font-awesome";
@@ -14,5 +14,10 @@
 //Bulma
 @import "node_modules/bulma/bulma";
 
-//Buefy
+//Buefy- Bluma-Vue models
 @import "node_modules/buefy/src/scss/buefy";
+
+//Custom sass pages
+@import "overrides";
+@import "helpers";
+@import "styles";
